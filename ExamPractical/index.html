@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utc-8">
+        <link href="index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Please Input A Question for World Famous Boxer Floyd Mayweather Jr.</h1>
+        <form id="question_form" method="POST" action="questionsuccess.php">
+            <div id="name_block">
+                <h2>First Name</h2>
+                <input id="name" name="name" type="text" required><br>
+            </div>
+            <div id="email_block">
+                <h2>Email</h2>
+                <input id="email" name="email" type="email" required><br>
+            </div>
+            <div id="question_block">
+                <h2>Question</h2>
+                <input id="question" name="question" type="text" required><br>
+            </div>
+            <div id="submit_block">
+                <button id="submit_button" type="submit">Send Question</button>
+            </div>
+        </form>
+    </body>
+</html>

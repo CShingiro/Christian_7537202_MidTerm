@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+}
+
+#question_form {
+    display: block;
+}
+#user_questions {
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+div {
+    border: 10px black;
+    margin: auto;
+}
+#name_block {
+    background-color: brown;
+}
+#email_block {
+    background-color: red;
+}
+#question_block {
+    background-color: yellow;
+}
+#submit_block {
+    background-color: green;
+}
